@@ -1,0 +1,5 @@
+C:\Users\sdist.ITAM\Desktop\E139\GestorBDT\bin\Debug\GestorBDT.dll
+C:\Users\sdist.ITAM\Desktop\E139\GestorBDT\bin\Debug\GestorBDT.pdb
+C:\Users\sdist.ITAM\Desktop\E139\GestorBDT\obj\Debug\GestorBDT.csprojResolveAssemblyReference.cache
+C:\Users\sdist.ITAM\Desktop\E139\GestorBDT\obj\Debug\GestorBDT.dll
+C:\Users\sdist.ITAM\Desktop\E139\GestorBDT\obj\Debug\GestorBDT.pdb

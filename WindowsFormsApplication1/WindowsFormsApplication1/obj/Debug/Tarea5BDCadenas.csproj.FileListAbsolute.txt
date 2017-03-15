@@ -1,0 +1,10 @@
+C:\Users\Enr\Desktop\GitTarea5\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Enr\Desktop\GitTarea5\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Enr\Desktop\GitTarea5\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Enr\Desktop\GitTarea5\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\GestorBDT.dll
+C:\Users\Enr\Desktop\GitTarea5\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\GestorBDT.pdb
+C:\Users\Enr\Desktop\GitTarea5\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Tarea5BDCadenas.csprojResolveAssemblyReference.cache
+C:\Users\Enr\Desktop\GitTarea5\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Enr\Desktop\GitTarea5\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Tarea5BDCadenas.csproj.GenerateResource.Cache
+C:\Users\Enr\Desktop\GitTarea5\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Enr\Desktop\GitTarea5\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
