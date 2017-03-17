@@ -16,5 +16,19 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void resultadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            resultadosConsultas rC = new resultadosConsultas();
+            rC.Show();
+        }
+
+        private void comprasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCadena fc = new FrmCadena();
+            fc.Show();
+        }
+
+
     }
 }
