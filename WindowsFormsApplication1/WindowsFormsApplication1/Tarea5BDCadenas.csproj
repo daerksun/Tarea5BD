@@ -32,7 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GestorBDT">
+    <Reference Include="GestorBDT, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\GestorBDT\bin\Debug\GestorBDT.dll</HintPath>
     </Reference>
     <Reference Include="System" />

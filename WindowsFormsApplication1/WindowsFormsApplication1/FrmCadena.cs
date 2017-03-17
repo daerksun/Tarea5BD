@@ -40,9 +40,9 @@ namespace WindowsFormsApplication1
 
         private void btConsulta_Click(object sender, EventArgs e)
         {
-            cadSql = "SELECT f.fechaCompra, p.nombreP FROM T4producto pro, T4fact_prod fp, T4factura f WHERE"+ 
-                     "pro.idproducto = fp.idproducto AND fp.folio = f.folio AND f.idCliente = '"+cbClientes.SelectedText+"' AND "+
-                     "f.fechaCompra = "+dtFecha.Text;
+            cadSql = "SELECT f.fechaCompra, pro.nombreP FROM T4producto pro, T4fact_prod fp, T4factura f, t4cliente cl WHERE "+ 
+                     "pro.idproducto = fp.idproducto AND fp.folio = f.folio AND  f.idCliente = cl.idCliente AND "+
+                     "cl.nombreC = '" + cbClientes.SelectedText + "' AND f.fechaCompra >= '" + dtFecha.Text + "'";
             GestorBD.consBD(cadSql, "Compras", dsCompras);
             dataGridView1.DataSource = dsCompras.Tables["Compras"];
         }
