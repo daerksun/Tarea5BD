@@ -43,3 +43,15 @@ C:\Users\LCONTRERV\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplica
 C:\Users\LCONTRERV\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FrmCadena.resources
 C:\Users\LCONTRERV\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\LCONTRERV\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Tarea5BDCadenas.csproj.GenerateResource.Cache
+C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\GestorBDT.dll
+C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\GestorBDT.pdb
+C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Tarea5BDCadenas.csprojResolveAssemblyReference.cache
+C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FrmCadena.resources
+C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Tarea5BDCadenas.csproj.GenerateResource.Cache

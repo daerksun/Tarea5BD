@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCadena));
             this.cbClientes = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dtFecha = new System.Windows.Forms.DateTimePicker();
@@ -59,7 +58,7 @@
             // 
             this.dtFecha.Location = new System.Drawing.Point(270, 8);
             this.dtFecha.Name = "dtFecha";
-            this.dtFecha.Size = new System.Drawing.Size(190, 20);
+            this.dtFecha.Size = new System.Drawing.Size(219, 20);
             this.dtFecha.TabIndex = 2;
             // 
             // dataGridView1
@@ -67,13 +66,12 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(13, 65);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(447, 255);
+            this.dataGridView1.Size = new System.Drawing.Size(476, 255);
             this.dataGridView1.TabIndex = 3;
             // 
             // btConsulta
             // 
-            this.btConsulta.Enabled = false;
-            this.btConsulta.Location = new System.Drawing.Point(385, 36);
+            this.btConsulta.Location = new System.Drawing.Point(414, 34);
             this.btConsulta.Name = "btConsulta";
             this.btConsulta.Size = new System.Drawing.Size(75, 23);
             this.btConsulta.TabIndex = 4;
@@ -86,8 +84,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(472, 332);
+            this.ClientSize = new System.Drawing.Size(501, 419);
             this.Controls.Add(this.btConsulta);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.dtFecha);
