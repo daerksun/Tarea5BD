@@ -26,7 +26,11 @@ namespace WindowsFormsApplication1
         private void comprasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmCadena fc = new FrmCadena();
-            fc.Show();
+            fc.ShowDialog();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e) {
+          this.Close();
         }
 
 
