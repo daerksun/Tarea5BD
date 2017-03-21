@@ -55,3 +55,15 @@ C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\o
 C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FrmCadena.resources
 C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Tarea5BDCadenas.csproj.GenerateResource.Cache
+C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Tarea5BDCadenas.csprojResolveAssemblyReference.cache
+C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FrmCadena.resources
+C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Tarea5BDCadenas.csproj.GenerateResource.Cache
+C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\GestorBDT.dll
+C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\GestorBDT.pdb

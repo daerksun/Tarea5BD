@@ -28,7 +28,6 @@ namespace WindowsFormsApplication1
             GestorBD = new GestorBDT.GestorBD("MSDAORA", "bd16", "tregui", "oracle");
             cadSql = "SELECT nombreC FROM T4cliente";
             GestorBD.consBD(cadSql, "Client", dsClientes);
-            dataGridView1.DataSource = dsClientes.Tables["Client"];
             com.cargaCombo(cbClientes , dsClientes, "Client", "nombreC");
         }
 
@@ -40,25 +39,25 @@ namespace WindowsFormsApplication1
 
         private void btConsulta_Click(object sender, EventArgs e)
         {
-            int idCl = idCliente(cbClientes.SelectedText);
+            //int idCl = idCliente(cbClientes.SelectedText);
+            MessageBox.Show(dtFecha.Text);
             GestorBD = new GestorBDT.GestorBD("MSDAORA", "bd16", "tregui", "oracle");
             cadSql = "SELECT f.fechaCompra, pro.nombreP FROM T4producto pro, T4fact_prod fp, T4factura f WHERE "+ 
                      "pro.idproducto = fp.idproducto AND fp.folio = f.folio AND "+
-                     "f.idCliente = " + idCl + " AND f.fechaCompra >= '" + dtFecha.Text + "'";
+                     "f.idCliente = 'Raul Orozco' AND f.fechaCompra >= '" + dtFecha.Text + "'";
             GestorBD.consBD(cadSql, "Compras", dsCompras);
             dataGridView1.DataSource = dsCompras.Tables["Compras"];
         }
 
-        private int idCliente(String Nom)
-        {
-            DataRow fi;
-            int resp;
-            GestorBD = new GestorBDT.GestorBD("MSDAORA", "bd16", "tregui", "oracle");
-            cadSql = "";
-            GestorBD.consBD(cadSql, "id", dsCliente);
-            fi= dsCompras.Tables["id"].Rows[0];
-            resp = (Int32)fi["idCliente"].ToString();
+        //private int idCliente(String Nom)
+        //{
+        //    DataRow fi;
+        //    int resp;
+        //    GestorBD = new GestorBDT.GestorBD("MSDAORA", "bd16", "tregui", "oracle");
+        //    cadSql = "";
+        //    GestorBD.consBD(cadSql, "id", dsCliente);
+        //    fi= dsCompras.Tables["id"].Rows[0];
 
-        }
+        //}
     }
 }
