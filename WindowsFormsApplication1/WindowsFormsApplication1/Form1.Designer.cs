@@ -61,22 +61,23 @@
       // resultadosToolStripMenuItem
       // 
       this.resultadosToolStripMenuItem.Name = "resultadosToolStripMenuItem";
-      this.resultadosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+      this.resultadosToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
       this.resultadosToolStripMenuItem.Text = "Resultados";
       this.resultadosToolStripMenuItem.Click += new System.EventHandler(this.resultadosToolStripMenuItem_Click);
       // 
       // comprasToolStripMenuItem
       // 
       this.comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
-      this.comprasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+      this.comprasToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
       this.comprasToolStripMenuItem.Text = "Compras";
       this.comprasToolStripMenuItem.Click += new System.EventHandler(this.comprasToolStripMenuItem_Click);
       // 
       // procedimientosYFuncionesToolStripMenuItem
       // 
       this.procedimientosYFuncionesToolStripMenuItem.Name = "procedimientosYFuncionesToolStripMenuItem";
-      this.procedimientosYFuncionesToolStripMenuItem.Size = new System.Drawing.Size(166, 20);
-      this.procedimientosYFuncionesToolStripMenuItem.Text = "Procedimientos y funciones";
+      this.procedimientosYFuncionesToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+      this.procedimientosYFuncionesToolStripMenuItem.Text = "Procesos";
+      this.procedimientosYFuncionesToolStripMenuItem.Click += new System.EventHandler(this.procedimientosYFuncionesToolStripMenuItem_Click);
       // 
       // salirToolStripMenuItem
       // 
