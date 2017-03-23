@@ -14,7 +14,6 @@ namespace WindowsFormsApplication1
     {
         GestorBDT.GestorBD GestorBD;
         DataSet dsClientes = new DataSet(), dsCompras = new DataSet(), dsCliente = new DataSet(), dsRellena = new DataSet();
-        const int OK = 1;
         Comunes com = new Comunes();
         String cadSql;
 
