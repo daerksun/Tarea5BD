@@ -13,7 +13,7 @@ namespace WindowsFormsApplication1
     public partial class FrmCadena : Form
     {
         GestorBDT.GestorBD GestorBD;
-        DataSet dsClientes = new DataSet(), dsCompras = new DataSet(), dsCliente = new DataSet();
+        DataSet dsClientes = new DataSet(), dsCompras = new DataSet(), dsCliente = new DataSet(), dsRellena = new DataSet();
         const int OK = 1;
         Comunes com = new Comunes();
         String cadSql;
@@ -42,7 +42,7 @@ namespace WindowsFormsApplication1
         private void btConsulta_Click(object sender, EventArgs e)
         {
             int idCl = idCliente(cbClientes.SelectedItem.ToString());
-            int montot, numPag, montp, saldo;
+            int montot, numPag, montp;
             GestorBD = new GestorBDT.GestorBD("MSDAORA", "bd16", "tregui", "oracle");
             cadSql = "SELECT f.fechaCompra, pro.nombreP FROM T4producto pro, T4fact_prod fp, T4factura f WHERE "+ 
                      "pro.idproducto = fp.idproducto AND fp.folio = f.folio AND "+
@@ -53,24 +53,27 @@ namespace WindowsFormsApplication1
             cadSql = "SELECT sum(montototal) FROM T4factura WHERE idCliente = "+idCl;
             montot = rellenaLabel(lbMontoTotal, cadSql);
 
-            //  cadSql = "";
-            //dsCompras.Clear();
-            //GestorBD.consBD(cadSql, "", dsCompras);
-            //lbNumPagos.Text = 
+            cadSql = "select count(folio) from t4pago where folio in (select folio from t4factura where idcliente = " + idCl + ")";
+            numPag = rellenaLabel(lbNumPagos, cadSql);
 
-            //  cadSql = "";
-            //dsCompras.Clear();
-            //GestorBD.consBD(cadSql, "", dsCompras);
-            //lbMontoPagos.Text = 
+            cadSql = "select sum(montop) from t4pago where folio in (select folio from t4factura where idcliente = " + idCl + ")";
+            montp = rellenaLabel(lbMontoPagos, cadSql);
 
-            //  cadSql = "";
-            //dsCompras.Clear();
-            //GestorBD.consBD(cadSql, "", dsCompras);
-            //lbSaldoAct.Text = 
+            lbSaldoAct.Text = "$"+(montot-montp);
+
+
         }
 
-        private int rellenaLabel(Label lb, String cadsql) {
-
+        private int rellenaLabel(Label lb, String cadSql) {
+            DataRow fi;
+            int resp;
+            GestorBD = new GestorBDT.GestorBD("MSDAORA", "bd16", "tregui", "oracle");
+            dsRellena.Clear();
+            GestorBD.consBD(cadSql, "id", dsRellena);
+            fi = dsRellena.Tables["id"].Rows[0];
+            resp = int.Parse(fi[0].ToString());
+            lb.Text = "$"+resp;
+            return resp;
         }
         private int idCliente(String Nom) {
           DataRow fi;
