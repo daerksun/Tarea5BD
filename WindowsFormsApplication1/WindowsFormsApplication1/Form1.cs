@@ -33,11 +33,6 @@ namespace WindowsFormsApplication1
           this.Close();
         }
 
-        private void procedimientosYFuncionesToolStripMenuItem_Click(object sender, EventArgs e) {
-          FrmFunciones ff = new FrmFunciones();
-          ff.ShowDialog();
-        }
-
 
     }
 }
