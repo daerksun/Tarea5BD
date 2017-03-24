@@ -33,6 +33,14 @@
       this.dtFecha = new System.Windows.Forms.DateTimePicker();
       this.dataGridView1 = new System.Windows.Forms.DataGridView();
       this.btConsulta = new System.Windows.Forms.Button();
+      this.label2 = new System.Windows.Forms.Label();
+      this.lbMontoTotal = new System.Windows.Forms.Label();
+      this.label3 = new System.Windows.Forms.Label();
+      this.lbNumPagos = new System.Windows.Forms.Label();
+      this.label4 = new System.Windows.Forms.Label();
+      this.lbMontoPagos = new System.Windows.Forms.Label();
+      this.label5 = new System.Windows.Forms.Label();
+      this.lbSaldoAct = new System.Windows.Forms.Label();
       ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
       this.SuspendLayout();
       // 
@@ -56,23 +64,25 @@
       // 
       // dtFecha
       // 
-      this.dtFecha.Location = new System.Drawing.Point(270, 8);
+      this.dtFecha.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+      this.dtFecha.Location = new System.Drawing.Point(129, 33);
       this.dtFecha.Name = "dtFecha";
-      this.dtFecha.Size = new System.Drawing.Size(219, 20);
+      this.dtFecha.Size = new System.Drawing.Size(135, 20);
       this.dtFecha.TabIndex = 2;
       // 
       // dataGridView1
       // 
+      this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
       this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-      this.dataGridView1.Location = new System.Drawing.Point(13, 65);
+      this.dataGridView1.Location = new System.Drawing.Point(12, 88);
       this.dataGridView1.Name = "dataGridView1";
-      this.dataGridView1.Size = new System.Drawing.Size(476, 255);
+      this.dataGridView1.Size = new System.Drawing.Size(252, 208);
       this.dataGridView1.TabIndex = 3;
       // 
       // btConsulta
       // 
       this.btConsulta.Enabled = false;
-      this.btConsulta.Location = new System.Drawing.Point(414, 34);
+      this.btConsulta.Location = new System.Drawing.Point(189, 59);
       this.btConsulta.Name = "btConsulta";
       this.btConsulta.Size = new System.Drawing.Size(75, 23);
       this.btConsulta.TabIndex = 4;
@@ -80,12 +90,89 @@
       this.btConsulta.UseVisualStyleBackColor = true;
       this.btConsulta.Click += new System.EventHandler(this.btConsulta_Click);
       // 
+      // label2
+      // 
+      this.label2.AutoSize = true;
+      this.label2.Location = new System.Drawing.Point(-2, 328);
+      this.label2.Name = "label2";
+      this.label2.Size = new System.Drawing.Size(121, 13);
+      this.label2.TabIndex = 5;
+      this.label2.Text = "Monto Total :               $";
+      this.label2.Click += new System.EventHandler(this.label2_Click);
+      // 
+      // lbMontoTotal
+      // 
+      this.lbMontoTotal.AutoSize = true;
+      this.lbMontoTotal.Location = new System.Drawing.Point(125, 328);
+      this.lbMontoTotal.Name = "lbMontoTotal";
+      this.lbMontoTotal.Size = new System.Drawing.Size(0, 13);
+      this.lbMontoTotal.TabIndex = 6;
+      // 
+      // label3
+      // 
+      this.label3.AutoSize = true;
+      this.label3.Location = new System.Drawing.Point(-2, 345);
+      this.label3.Name = "label3";
+      this.label3.Size = new System.Drawing.Size(111, 13);
+      this.label3.TabIndex = 7;
+      this.label3.Text = "# Pagos Realizados : ";
+      // 
+      // lbNumPagos
+      // 
+      this.lbNumPagos.AutoSize = true;
+      this.lbNumPagos.Location = new System.Drawing.Point(119, 345);
+      this.lbNumPagos.Name = "lbNumPagos";
+      this.lbNumPagos.Size = new System.Drawing.Size(0, 13);
+      this.lbNumPagos.TabIndex = 8;
+      // 
+      // label4
+      // 
+      this.label4.AutoSize = true;
+      this.label4.Location = new System.Drawing.Point(-2, 363);
+      this.label4.Name = "label4";
+      this.label4.Size = new System.Drawing.Size(121, 13);
+      this.label4.TabIndex = 9;
+      this.label4.Text = "Monto Pagos :             $";
+      // 
+      // lbMontoPagos
+      // 
+      this.lbMontoPagos.AutoSize = true;
+      this.lbMontoPagos.Location = new System.Drawing.Point(128, 363);
+      this.lbMontoPagos.Name = "lbMontoPagos";
+      this.lbMontoPagos.Size = new System.Drawing.Size(0, 13);
+      this.lbMontoPagos.TabIndex = 10;
+      // 
+      // label5
+      // 
+      this.label5.AutoSize = true;
+      this.label5.Location = new System.Drawing.Point(-2, 379);
+      this.label5.Name = "label5";
+      this.label5.Size = new System.Drawing.Size(121, 13);
+      this.label5.TabIndex = 11;
+      this.label5.Text = "Saldo Actual :              $";
+      // 
+      // lbSaldoAct
+      // 
+      this.lbSaldoAct.AutoSize = true;
+      this.lbSaldoAct.Location = new System.Drawing.Point(125, 379);
+      this.lbSaldoAct.Name = "lbSaldoAct";
+      this.lbSaldoAct.Size = new System.Drawing.Size(0, 13);
+      this.lbSaldoAct.TabIndex = 12;
+      // 
       // FrmCadena
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.SystemColors.ButtonFace;
-      this.ClientSize = new System.Drawing.Size(501, 419);
+      this.ClientSize = new System.Drawing.Size(277, 399);
+      this.Controls.Add(this.lbSaldoAct);
+      this.Controls.Add(this.label5);
+      this.Controls.Add(this.lbMontoPagos);
+      this.Controls.Add(this.label4);
+      this.Controls.Add(this.lbNumPagos);
+      this.Controls.Add(this.label3);
+      this.Controls.Add(this.lbMontoTotal);
+      this.Controls.Add(this.label2);
       this.Controls.Add(this.btConsulta);
       this.Controls.Add(this.dataGridView1);
       this.Controls.Add(this.dtFecha);
@@ -107,5 +194,13 @@
         private System.Windows.Forms.DateTimePicker dtFecha;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btConsulta;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbMontoTotal;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbNumPagos;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbMontoPagos;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lbSaldoAct;
     }
 }
