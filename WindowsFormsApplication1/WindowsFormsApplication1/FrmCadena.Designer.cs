@@ -95,14 +95,15 @@
       this.label2.AutoSize = true;
       this.label2.Location = new System.Drawing.Point(-2, 328);
       this.label2.Name = "label2";
-      this.label2.Size = new System.Drawing.Size(70, 13);
+      this.label2.Size = new System.Drawing.Size(121, 13);
       this.label2.TabIndex = 5;
-      this.label2.Text = "Monto Total :";
+      this.label2.Text = "Monto Total :               $";
+      this.label2.Click += new System.EventHandler(this.label2_Click);
       // 
       // lbMontoTotal
       // 
       this.lbMontoTotal.AutoSize = true;
-      this.lbMontoTotal.Location = new System.Drawing.Point(89, 328);
+      this.lbMontoTotal.Location = new System.Drawing.Point(125, 328);
       this.lbMontoTotal.Name = "lbMontoTotal";
       this.lbMontoTotal.Size = new System.Drawing.Size(0, 13);
       this.lbMontoTotal.TabIndex = 6;
@@ -112,14 +113,14 @@
       this.label3.AutoSize = true;
       this.label3.Location = new System.Drawing.Point(-2, 345);
       this.label3.Name = "label3";
-      this.label3.Size = new System.Drawing.Size(108, 13);
+      this.label3.Size = new System.Drawing.Size(111, 13);
       this.label3.TabIndex = 7;
-      this.label3.Text = "# Pagos Realizados :";
+      this.label3.Text = "# Pagos Realizados : ";
       // 
       // lbNumPagos
       // 
       this.lbNumPagos.AutoSize = true;
-      this.lbNumPagos.Location = new System.Drawing.Point(128, 345);
+      this.lbNumPagos.Location = new System.Drawing.Point(119, 345);
       this.lbNumPagos.Name = "lbNumPagos";
       this.lbNumPagos.Size = new System.Drawing.Size(0, 13);
       this.lbNumPagos.TabIndex = 8;
@@ -129,14 +130,14 @@
       this.label4.AutoSize = true;
       this.label4.Location = new System.Drawing.Point(-2, 363);
       this.label4.Name = "label4";
-      this.label4.Size = new System.Drawing.Size(76, 13);
+      this.label4.Size = new System.Drawing.Size(121, 13);
       this.label4.TabIndex = 9;
-      this.label4.Text = "Monto Pagos :";
+      this.label4.Text = "Monto Pagos :             $";
       // 
       // lbMontoPagos
       // 
       this.lbMontoPagos.AutoSize = true;
-      this.lbMontoPagos.Location = new System.Drawing.Point(98, 363);
+      this.lbMontoPagos.Location = new System.Drawing.Point(128, 363);
       this.lbMontoPagos.Name = "lbMontoPagos";
       this.lbMontoPagos.Size = new System.Drawing.Size(0, 13);
       this.lbMontoPagos.TabIndex = 10;
@@ -146,14 +147,14 @@
       this.label5.AutoSize = true;
       this.label5.Location = new System.Drawing.Point(-2, 379);
       this.label5.Name = "label5";
-      this.label5.Size = new System.Drawing.Size(73, 13);
+      this.label5.Size = new System.Drawing.Size(121, 13);
       this.label5.TabIndex = 11;
-      this.label5.Text = "Saldo Actual :";
+      this.label5.Text = "Saldo Actual :              $";
       // 
       // lbSaldoAct
       // 
       this.lbSaldoAct.AutoSize = true;
-      this.lbSaldoAct.Location = new System.Drawing.Point(99, 379);
+      this.lbSaldoAct.Location = new System.Drawing.Point(125, 379);
       this.lbSaldoAct.Name = "lbSaldoAct";
       this.lbSaldoAct.Size = new System.Drawing.Size(0, 13);
       this.lbSaldoAct.TabIndex = 12;
