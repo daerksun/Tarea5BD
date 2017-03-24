@@ -67,3 +67,7 @@ C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplic
 C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
 C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\GestorBDT.dll
 C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\GestorBDT.pdb
+C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.funciones.resources
+C:\Users\sdist.ITAM\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.resultadosConsultas.resources
+C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.funciones.resources
+C:\Users\bd\Desktop\Tarea5BD\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.resultadosConsultas.resources
