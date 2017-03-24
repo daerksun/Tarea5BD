@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
       this.menuStrip1 = new System.Windows.Forms.MenuStrip();
       this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
       this.resultadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -61,22 +62,23 @@
       // resultadosToolStripMenuItem
       // 
       this.resultadosToolStripMenuItem.Name = "resultadosToolStripMenuItem";
-      this.resultadosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+      this.resultadosToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
       this.resultadosToolStripMenuItem.Text = "Resultados";
       this.resultadosToolStripMenuItem.Click += new System.EventHandler(this.resultadosToolStripMenuItem_Click);
       // 
       // comprasToolStripMenuItem
       // 
       this.comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
-      this.comprasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+      this.comprasToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
       this.comprasToolStripMenuItem.Text = "Compras";
       this.comprasToolStripMenuItem.Click += new System.EventHandler(this.comprasToolStripMenuItem_Click);
       // 
       // procedimientosYFuncionesToolStripMenuItem
       // 
       this.procedimientosYFuncionesToolStripMenuItem.Name = "procedimientosYFuncionesToolStripMenuItem";
-      this.procedimientosYFuncionesToolStripMenuItem.Size = new System.Drawing.Size(166, 20);
-      this.procedimientosYFuncionesToolStripMenuItem.Text = "Procedimientos y funciones";
+      this.procedimientosYFuncionesToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+      this.procedimientosYFuncionesToolStripMenuItem.Text = "Procesos";
+      this.procedimientosYFuncionesToolStripMenuItem.Click += new System.EventHandler(this.procedimientosYFuncionesToolStripMenuItem_Click);
       // 
       // salirToolStripMenuItem
       // 
@@ -89,6 +91,8 @@
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+      this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+      this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
       this.ClientSize = new System.Drawing.Size(518, 262);
       this.Controls.Add(this.menuStrip1);
       this.Name = "Form1";
