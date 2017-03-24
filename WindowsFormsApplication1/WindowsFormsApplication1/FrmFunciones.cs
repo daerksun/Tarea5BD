@@ -116,18 +116,18 @@ namespace WindowsFormsApplication1 {
         //Entrada
         nomProd = cbProductos.SelectedItem.ToString();
         monto = Double.Parse(tbMonto.Text);
-        param = new OleDbParameter("nomP", nomProd);
+        param = new OleDbParameter("prod", nomProd);
         cmd.Parameters.Add(param);
         param = new OleDbParameter("monto", monto);
         cmd.Parameters.Add(param);
 
         //Salida
-        param = new OleDbParameter("nombre", OleDbType.VarChar);
-        cmd.Parameters.Add(param);
-        param = new OleDbParameter("cant", OleDbType.Double,
+        param = new OleDbParameter("cant", OleDbType.Integer,
           8, ParameterDirection.Output, false, 4, 0, "cantidad", DataRowVersion.Current, 0);
         cmd.Parameters.Add(param);
-
+        param = new OleDbParameter("nombre", OleDbType.VarChar,
+          8, ParameterDirection.Output, false, 4, 0, "nombreCad", DataRowVersion.Current, 0);
+        cmd.Parameters.Add(param);
 
         //Procedimiento
         try {
@@ -135,7 +135,7 @@ namespace WindowsFormsApplication1 {
           int cant;
           String cadena;
           //Recuperar valores
-          cant = Convert.ToInt16(cmd.Parameters["monto"].Value);
+          cant = Convert.ToInt32(cmd.Parameters["cant"].Value);
           cadena = cmd.Parameters["nombre"].Value.ToString();
           MessageBox.Show("Cantidad de cadenas con " + nomProd + " menor a " + monto.ToString() + ": " + cant +
             "\nSe puede encontrar en: " + cadena);
