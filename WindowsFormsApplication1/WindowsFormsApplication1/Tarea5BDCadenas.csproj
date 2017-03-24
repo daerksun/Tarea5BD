@@ -49,11 +49,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Comunes.cs" />
-    <Compile Include="funciones.cs">
+    <Compile Include="FrmFunciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="funciones.Designer.cs">
-      <DependentUpon>funciones.cs</DependentUpon>
+    <Compile Include="FrmFunciones.Designer.cs">
+      <DependentUpon>FrmFunciones.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -75,8 +75,8 @@
     <Compile Include="resultadosConsultas.Designer.cs">
       <DependentUpon>resultadosConsultas.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="funciones.resx">
-      <DependentUpon>funciones.cs</DependentUpon>
+    <EmbeddedResource Include="FrmFunciones.resx">
+      <DependentUpon>FrmFunciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
